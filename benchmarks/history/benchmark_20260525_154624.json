@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260525_154624",
+  "source": "videos/pose1.mp4",
+  "device": "cpu",
+  "max_frames": 300,
+  "warmup_frames": 30,
+  "resize_max_side": 0,
+  "results": [
+    {
+      "model": "rtmpose",
+      "device": "cpu",
+      "frames_processed": 300,
+      "fps_mean": 7.492585485824422,
+      "latency_ms_mean": 144.08244008889056,
+      "latency_ms_p95": 277.9344189998483,
+      "detector_ms_mean": 36.09438693703632,
+      "pose_ms_mean": 107.98805315185425,
+      "gpu_memory_mb_mean": 0.0,
+      "cpu_percent_mean": 80.59740740740745,
+      "ram_percent_mean": 55.06777777777776,
+      "resize_max_side": 0,
+      "sample_frame": "benchmarks/rtmpose_sample_frame.jpg"
+    },
+    {
+      "model": "vitpose",
+      "device": "cpu",
+      "frames_processed": 300,
+      "fps_mean": 1.6315995938632606,
+      "latency_ms_mean": 672.6082275370371,
+      "latency_ms_p95": 1139.0540139998393,
+      "detector_ms_mean": 39.68228971481436,
+      "pose_ms_mean": 632.9259378222226,
+      "gpu_memory_mb_mean": 0.0,
+      "cpu_percent_mean": 83.70296296296294,
+      "ram_percent_mean": 58.11740740740743,
+      "resize_max_side": 0,
+      "sample_frame": "benchmarks/vitpose_sample_frame.jpg"
+    }
+  ]
+}

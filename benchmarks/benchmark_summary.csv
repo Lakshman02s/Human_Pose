@@ -1,0 +1,3 @@
+model,device,frames_processed,fps_mean,latency_ms_mean,latency_ms_p95,detector_ms_mean,pose_ms_mean,gpu_memory_mb_mean,cpu_percent_mean,ram_percent_mean,resize_max_side,sample_frame
+rtmpose,cpu,300,7.492585485824422,144.08244008889056,277.9344189998483,36.09438693703632,107.98805315185425,0.0,80.59740740740745,55.06777777777776,0,benchmarks/rtmpose_sample_frame.jpg
+vitpose,cpu,300,1.6315995938632606,672.6082275370371,1139.0540139998393,39.68228971481436,632.9259378222226,0.0,83.70296296296294,58.11740740740743,0,benchmarks/vitpose_sample_frame.jpg

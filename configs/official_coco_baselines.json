@@ -1,0 +1,34 @@
+{
+  "source": "Official OpenMMLab MMPose model zoo baselines on COCO val2017",
+  "notes": [
+    "These are official reference metrics from the MMPose docs, used for sanity-check benchmarking.",
+    "They are not local re-evaluations from this machine.",
+    "Real deployment decisions should still prioritize our own CCTV and RTSP validation results."
+  ],
+  "models": [
+    {
+      "model": "rtmpose",
+      "variant": "RTMPose-M (aic-coco, 256x192)",
+      "checkpoint": "checkpoints/rtmpose_m.pth",
+      "input_size": "256x192",
+      "mAP": 0.758,
+      "mAP50": 0.903,
+      "mAP75": 0.826,
+      "mAR": 0.806,
+      "recall": 0.806,
+      "source_ref": "MMPose configs/body_2d_keypoint/rtmpose/coco/rtmpose_coco.md"
+    },
+    {
+      "model": "vitpose",
+      "variant": "ViTPose-B Simple (256x192)",
+      "checkpoint": "checkpoints/vitpose_base.pth",
+      "input_size": "256x192",
+      "mAP": 0.756,
+      "mAP50": 0.906,
+      "mAP75": 0.826,
+      "mAR": 0.809,
+      "recall": 0.809,
+      "source_ref": "MMPose configs/body_2d_keypoint/topdown_heatmap/coco/vitpose_coco.md"
+    }
+  ]
+}

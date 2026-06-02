@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pose Benchmarking Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#06131f",
+              panel: "#081726",
+              accent: "#37d0ff",
+              mint: "#73f0b5",
+              ember: "#ff8f5a",
+              plum: "#8f8bff",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="/dashboard/styles.css?v=20260527-enterprise" />
+  </head>
+  <body class="min-h-screen bg-ink text-slate-100">
+    <div id="root"></div>
+    <script src="/dashboard/app.js?v=20260527-dashboardfix"></script>
+  </body>
+</html>

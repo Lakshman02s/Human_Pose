@@ -1,0 +1,13 @@
+runtime:
+  detector_score_threshold: 0.5
+  keypoint_score_threshold: 0.35
+  batch_size: 1
+  use_fp16: false
+  enable_tracking: true
+  enable_smoothing: true
+  tracking_iou_threshold: 0.3
+  smoothing_alpha: 0.6
+  draw_bbox: true
+  draw_keypoints: true
+  draw_skeleton: true
+  save_json: true

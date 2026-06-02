@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pose Benchmark Client Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#06131f",
+              accent: "#37d0ff",
+              mint: "#73f0b5",
+              ember: "#ff8f5a",
+              plum: "#8f8bff",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="/dashboard/styles.css?v=20260527-enterprise" />
+  </head>
+  <body class="min-h-screen bg-ink text-slate-100">
+    <div id="report-root"></div>
+    <script src="/dashboard/report.js?v=20260527-reportfix"></script>
+  </body>
+</html>
